@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#34b6e9"
+    android:layout_margin="3dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_ceshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:text="日期" />
+
+ 
+      <EditText
+        android:id="@+id/edit_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入城市名称"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+      <Button
+          android:id="@+id/button_ti"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="clickBu"
+          
+          android:layout_marginLeft="77dp"
+          android:text="刷新" />
+        
+  
+
+   
+
+    <TextView
+        android:id="@+id/text_cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:textSize="41sp"
+        android:textColor="#fff"
+        android:text="城市" />
+
+    <TextView
+        android:id="@+id/text_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="天气" />
+
+    <TextView
+        android:id="@+id/text_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="温度" />
+
+    <TextView
+        android:id="@+id/text_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:text="湿度" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:text="明天" />
+
+    <TextView
+        android:id="@+id/text_tomo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:text="天气" />
+
+</LinearLayout>
